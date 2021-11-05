@@ -1,0 +1,31 @@
+@import 'variables.scss';
+@import '../helpers/fonts';
+@import "../helpers/functions";
+@import "../helpers/mixins";
+@import "../helpers/functions";
+
+body {
+  
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: $bg-gray;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: vw(1110);
+    margin: vw(35) vw(80);
+}
+.btn {
+  padding: $padding $padding*2;
+  background: $green-bg;
+  color: #ffffff;
+  border: 0;
+  border-radius: $radius;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background: $green-bg-hover;
+  }
+}
